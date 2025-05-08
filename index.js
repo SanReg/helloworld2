@@ -11,6 +11,10 @@ app.get('/',function(req,res){
     //res.download(__dirname + '/fileho.html')
 })
 
+router.get('/kiran',function(req,res){
+    res.send("Chakka Dai, k xa!")
+})
+
 app.listen(port,function(){
     console.log(`You are listening on the port on ${port}`)
 })
