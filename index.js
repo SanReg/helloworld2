@@ -11,8 +11,9 @@ app.get('/',function(req,res){
     //res.download(__dirname + '/fileho.html')
 })
 
-app.get('/kiran',function(req,res){
-    res.send("Chakka Dai, k xa!")
+app.get('/kiran/',function(req,res){
+    res.sendFile(__dirname + '/kiran.html')
+    //res.download(__dirname + '/fileho.html')
 })
 
 app.listen(port,function(){
