@@ -11,7 +11,7 @@ app.get('/',function(req,res){
     //res.download(__dirname + '/fileho.html')
 })
 
-router.get('/kiran',function(req,res){
+app.get('/kiran',function(req,res){
     res.send("Chakka Dai, k xa!")
 })
 
